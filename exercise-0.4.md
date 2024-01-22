@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
-participant browser
+    participant browser
     participant server
     browser->>server: POST request to server
     server->>browser: redirects page to headers location
